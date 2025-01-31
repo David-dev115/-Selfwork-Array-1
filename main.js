@@ -9,14 +9,14 @@
 
 
 
-arr = [3, 7, -2, 5, 8, 1, 2, 5, 6, -4, 12, 25];
+let arr = [3, 7, -2, 5, 8, 1, 2, 5, 6, -4, 12, 25];
 
 
 
 
 function ordinaDescr (lista_numeri) {
     
-    lista_ordinata = lista_numeri.sort( (a,b)=>b-a )
+    let lista_ordinata = lista_numeri.sort( (a,b)=>b-a )
     return lista_ordinata
     
 }
@@ -25,7 +25,7 @@ function ordinaDescr (lista_numeri) {
 
 function ordinaCresc (lista_numeri) {
     
-    lista_ordinata = lista_numeri.sort ((a,b)=>a-b)
+    let lista_ordinata = lista_numeri.sort ((a,b)=>a-b)
     return lista_ordinata
 }
 
